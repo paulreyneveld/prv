@@ -4,7 +4,7 @@ const Music = () => {
     return (
         <div className={styles.container}>
             <h1>Testing</h1>
-            <audio src="../public/" controls />
+            <audio src="dw37.mp3" controls />
         </div>
     )
 }
