@@ -4,7 +4,6 @@ import Form from 'react-bootstrap/Form'
 import Button from 'react-bootstrap/Button'
 
 const NewBlog = () => {
-
     return (
         <>
         <Head>
@@ -22,7 +21,7 @@ const NewBlog = () => {
                 </Form.Group>
 
                 <Form.Group controlId="formBasicPassword">
-                    <Form.Label>Blog</Form.Label>
+                    <Form.Label>Post:</Form.Label>
                     <Form.Control 
                         as="textarea" 
                         placeholder="Type blog here. . ." 
