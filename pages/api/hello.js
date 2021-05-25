@@ -7,7 +7,6 @@ export default (req, res) => {
   else if (req.method === 'GET') {
     res.status(200).json({ type: 'GET'})
   }
-  
 }
 
 
